@@ -1,0 +1,82 @@
+/* Whole navbar */
+.navbar-main{
+   width: 100%;
+   position: sticky;
+   top: 0%;
+   margin: 0;
+   padding: 0;
+   height: 4.5em;
+   display: grid;
+   grid-template-columns: 7rem 1fr 1fr 1fr 2fr 1fr .5fr 2.5fr 1fr 7rem;
+   background-color: #FD8A8A;
+   z-index: 2;
+}
+/* Nav logo */
+.nav-logo{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: -webkit-linear-gradient(rgb(227, 198, 198),rgb(0, 55, 205));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Pages link div */
+.nav-pages{
+    margin: 0 0 0 5%;
+    height: 100%;
+    text-align: center;
+    grid-column: 3/5;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav-pages a{
+    color: #eee;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 1s;
+}
+/* Nav pages at hover */
+.nav-pages a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.page-1{
+    grid-column: 3/4 ;
+}
+.page-2{
+    grid-column: 4/5 ;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-column:9/10 ;
+}
+.profile-pic{
+    height: 45px;
+    width: 45px;
+}
+.nav-profile-name h3{
+    color: white;
+    cursor: pointer;
+}
+.myCart{
+    grid-column: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartImg{
+    height: 30px;
+    width: 30px;
+}

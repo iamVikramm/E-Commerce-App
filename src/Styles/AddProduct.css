@@ -1,0 +1,35 @@
+/* AddProduct div */
+.AddProductDiv{
+    background-color: white;
+    margin: 8% 25%;
+    height: 50%;
+    width: 45%;
+    text-align: center;
+}
+/* H1 in addproduct */
+.AddProductDiv h1{
+    color: #FD8A8A;
+}
+/* form */
+.AddProductForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+
+}
+/* inputfield */
+.inputField{
+    margin: 1.5%;
+    height: 65px;
+    border: 2px solid #FD8A8A;
+}
+/* submit Button */
+.submitBtn{
+    background-color: lime;
+    cursor: pointer;
+    height: 75px;
+    margin: 1.5%;
+    height: 65px;
+    border: 1px solid black;
+}

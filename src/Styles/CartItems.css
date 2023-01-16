@@ -1,0 +1,50 @@
+/* CartItems Whole div */
+.CartItems{
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* CartItem Each card */
+.wholeCard{
+    margin: 2% 5%;
+    padding: 1%;
+    width: 20%;
+    height: 350px;
+    text-align: center;
+    border: 1px solid gray;
+    
+}
+/* cartitem img div */
+.cartImageDiv{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+
+/* cartitem img */
+.cartItemImg{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.cartItemDetails{
+    height: 30%;
+}
+.cartButtons{
+    display: flex;
+    flex-direction: column;
+}
+/* cartitem buynow btn */
+.cartBuyNow{
+    height: 30px;
+    background-color: yellowgreen;
+    margin-bottom: 2%;
+}
+/* cart item delete now btn */
+.cartRemove{
+    margin-left: 230px;
+    height: 17px;
+    width: 17px;
+}

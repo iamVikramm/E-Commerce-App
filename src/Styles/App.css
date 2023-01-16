@@ -1,0 +1,140 @@
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  background-color: #FFFFFF;
+
+}
+/* Loader */
+.app-spinner {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d6d6d6;
+  border-radius: 50%;
+  border-top-color: #6200ee;
+  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+  margin-right: 10px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+/* SortBtn */
+.sort-div{
+  height:30px;
+  width: 95px;
+  margin: 1.5% 0;
+  margin-left: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating{
+  display: inline-block;
+}
+
+.dangerSortImg{
+  height: 12px;
+  width: 12px;
+}
+.sort-btn{
+  height: 100%;
+  width: 100%;
+  background-color: #FED049;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+ 
+}
+/* EachItem */
+
+.wholeItem{
+  margin: 3% 12%;
+  display: flex;
+  height: 10%;
+  width: 70%;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1.5px solid lightgray;
+ 
+}
+/* Image div */
+.imageDiv{
+  margin: 0% 0%;
+  height: 10%;
+  width:  30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image */
+
+.itemImg{
+  margin: 5% 10%;
+  height: 250px;
+  width:  80%;
+  object-fit: contain;
+}
+
+/* item details */
+.itemDetails{
+  margin: 0 5%;
+  width: 50%;
+}
+.buttons{
+  display: grid;
+  grid-template-rows: 2fr 2.5fr 1fr 2fr;
+}
+/* Buttons */
+button{
+  outline: none;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.edit-delete{
+  margin: 10% 0;
+  grid-row: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy-btn{
+  height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  border-radius: 10%;
+}
+/* Buy btn */
+.buyingImg{
+  height: 20px;
+  width: 20px;
+}
+/* remove btn */
+.removebth{
+  height: 20px;
+  width: 20px;
+}
+.buy-btn button{
+  height: 100%;
+}
+
+/* Edit and delete image */
+.edit-delete-img{
+  grid-row: 5;
+  height: 21px;
+  width: 21px;
+}
+
+/* edit input btn */
+.editInput{
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  width: 100%;
+}
