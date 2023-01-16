@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AllProducts,{AddProducts,Products,MyCart} from "../Pages/index";
+import AllProducts,{AddProducts,Products,MyCart,Home} from "../Pages/index";
 import { useEffect } from 'react';
 import {addItems} from '../actions/index'
 import Navbar from "./Navbar";
@@ -37,6 +37,7 @@ function App(props){
       <BrowserRouter>
       <Navbar />
       <Routes>
+      <Route path="/E-Commerce-App"  element={<Home />}></Route>
       <Route path="/"  element={<AllProducts store={props.store} />}></Route>
       <Route path="/Add-Products" element={<AddProducts store={props.store}/>}></Route>
       <Route path="/Products/:id" element={<Products />}></Route>
